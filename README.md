@@ -15,4 +15,4 @@ It consists of a backend built with Java, and a frontend developed using React, 
    git clone https://github.com/yarinlug/Autocomplete-Frontend.git
    cd Autocomplete-Frontend
 
-   Please go to "https://github.com/yarinlug/Autocomplete-Backend" for the Back-End of the project.
+   Please go to "https://github.com/yarinlug/Autocomplete-Frontend" for the Front-End of the project.

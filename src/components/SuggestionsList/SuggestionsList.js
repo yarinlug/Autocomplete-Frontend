@@ -21,7 +21,7 @@ function SuggestionsList({ suggestions, input }) {
   return (
     <div className="suggestions-list">
       {suggestions.map((suggestion, index) => (
-        <div key={index} className="suggestion-item" onClick={() => alert(`You clicked on ${suggestion.name}`)}>
+        <div key={index} className="suggestion-item">
           <img src={suggestion.imageURL} alt={suggestion.name} />
           <div className="suggestion-details">
             <p className="suggestion-role">{highlightText(suggestion.workTitle)}</p>
