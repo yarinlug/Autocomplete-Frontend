@@ -26,6 +26,6 @@ It consists of a backend built with Java and the Spring framework, and a fronten
    cd Autocomplete-Frontend
 
 2. Install the dependencies and start the frontend:
- ```bash
-npm install
-npm start
+    ```bash
+   npm install
+   npm start
