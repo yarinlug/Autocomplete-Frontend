@@ -25,6 +25,7 @@ It consists of a backend built with Java and the Spring framework, and a fronten
    git clone https://github.com/yarinlug/Autocomplete-Frontend.git
    cd Autocomplete-Frontend
 
-2.Install the dependencies and start the frontend:
+2. Install the dependencies and start the frontend:
+   ```bash
 npm install
 npm start
