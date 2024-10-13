@@ -1,12 +1,12 @@
 // App.js
 import React, { useState } from 'react';
 import './App.css';
-import Autocomplete from './components/Autocomplete/Autocomplete';
+import Layout from './components/Layout/Layout';
 
 function App() {
   return (
     <div className="app">
-      <Autocomplete />
+      <Layout/>
     </div>
   );
 }

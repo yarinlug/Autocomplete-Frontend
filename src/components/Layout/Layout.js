@@ -4,9 +4,9 @@ import SuggestionsList from '../SuggestionsList/SuggestionsList';
 import AlternativeSuggestionsList from '../AlternativeSuggestionsList/AlternativeSuggestionsList';
 import { fetchAutocompleteData } from '../service/fetchAutoCompleteData';
 import Header from '../Header/Header';
-import './Autocomplete.css';
+import './Layout.css';
 
-function Autocomplete() {
+function Layout() {
   const [input, setInput] = useState('');
   const [suggestions, setSuggestions] = useState([]);
   const [showAlternativeList, setShowAlternativeList] = useState(false);
@@ -76,4 +76,4 @@ function Autocomplete() {
   );
 }
 
-export default Autocomplete;
+export default Layout;
