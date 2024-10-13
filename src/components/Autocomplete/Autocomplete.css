@@ -1,0 +1,52 @@
+.autocomplete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://rasmuschristensen.com/wp-content/uploads/2021/06/deloitte-cover-image@2x.jpg') no-repeat center center fixed;
+    background-size: cover;
+    width: 100vw; 
+  }
+  
+  .autocomplete-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sub-heading {
+    font-size: 1.5rem;
+    color: white;
+    margin: 10px 0;
+  }
+  
+  /* Tablet */
+  @media (max-width: 1024px) {
+    .autocomplete {
+      padding: 0 20px;
+    }
+  
+    .sub-heading {
+      font-size: 1.3rem;
+    }
+  }
+  
+  /* Phone */
+  @media (max-width: 600px) {
+    .autocomplete {
+      padding: 0 10px;
+    }
+  
+    .sub-heading {
+      font-size: 1.1rem;
+      text-align: center;
+    }
+  }
